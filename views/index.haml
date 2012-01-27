@@ -1,16 +1,29 @@
--#%header.container_12 flyware
-%nav.container_12
- %span.logo   
--#  %ul.links.grid_12
--#    %li
--#      %a(href="#") About us
--#    %li
--#      %a(href="#") Our works
--#    %li
--#      %a(href="#") News
--#   %li
--#      %a(href="#") Blog
+%nav#home.container_12
+  .links_wrapper
+    %ul.links.grid_12
+      %li
+        %a.scroll(href="#about")О нас
+      %li
+        %a /
+      %li
+        %a.scroll(href="#works")Проекты
+      %li
+        %a /
+      %li
+        %a.scroll(href="#contacts")Контакты
+      %li
+        %select
+          %option ru
+          %option es
+  %span#logo
+%section#about.container_12
+  %h1 О нас
+%section#works.container_12
+  %h1Проекты
+%section#contacts.container_12
+  %h1 Контакты
 
--##content.container_12 
--#    .grid_1.box a
+%a#toTop(href="#") Top
+
+
 

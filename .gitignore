@@ -2,3 +2,5 @@
 bundle/
 .sass-cache/
 tmp/
+Capfile
+config/

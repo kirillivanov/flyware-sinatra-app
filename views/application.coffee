@@ -1,2 +1,2 @@
 $(document).ready ->
-#   alert "DOM Loaded!"
+  $('select').selectmenu( {style:'dropdown', menuWidth: 58} )

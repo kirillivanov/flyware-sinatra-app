@@ -14,10 +14,10 @@ get '/' do
   haml :index
 end
 
-get '/application.js' do
-  coffee :application
-end
-
 get '/style.css' do
   scss :style
+end
+
+get '/application.js' do
+  coffee :application
 end

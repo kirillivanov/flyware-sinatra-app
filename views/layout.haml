@@ -1,12 +1,20 @@
-!!! 
+!!!
 %html
   %head
     %meta{:charset => "UTF-8"}
     %title flyware
     %link{:rel => "stylesheet", :href => "/css/reset.css"}
     %link{:rel => "stylesheet", :href => "/css/grid.css"}
-    %link{:rel => "stylesheet", :href => "style.css"}
+    %link{:rel => "stylesheet", :href => "http://jquery-ui.googlecode.com/svn/branches/labs/selectmenu/ui.selectmenu.css"}
+    %link{:rel => "stylesheet", :href => "http://ajax.googleapis.com/ajax/libs/jqueryui/1.7.2/themes/ui-darkness/jquery-ui.css"}
+
+
+    %link{:rel => "stylesheet", :href => "/style.css"}
     %script{:src => "http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"}
-    %script{:src => "application.js"}
+    %script{:src => "http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"}
+    %script{:src => "http://jquery-ui.googlecode.com/svn/branches/labs/selectmenu/ui.selectmenu.js"}
+
+    %script{:src => "/application.js"}
+    %script{:src => "js/scroll.js"}
   %body
     = yield
