@@ -1,5 +1,5 @@
 
-$bg: #8e000a; //url("images/bg_.png");
+$bg: #780000; //url("images/bg_.png");
 $logo-font: #eeb900;
 $logoImgUrl: url("images/logo.png");
 $topImgUrl: url("images/top.png");
@@ -35,7 +35,6 @@ nav {
 h1 {
   margin-left: 10%; font-size: 16px;
 }
-/*  */
 
 #content {
   position: absolute;
@@ -70,8 +69,8 @@ h1 {
   };
   span.image_0 {
     background: #eee;
-    ul.links  { margin-left: 45px; };
-    ul.links a { color: #222; };
+    ul.links  { margin-left: 145px; };
+    ul.links a { color: #222; min-width: 150px; };
   };
   span.image_1 { background: #fff; }
   span.image_2 { background: #333; }
@@ -108,22 +107,35 @@ h1 {
   text-indent: -999px;
   opacity: .7;
 }
+
 #toTop:hover { opacity: 1; }
+
+a.flags {
+  display:block;
+  width: 16px;
+  height: 11px;
+  margin-top: 20px;
+ }
+
+a.es_flag { background: url("images/es.png"); };
+a.gb_flag { background: url("images/gb.png"); };
+a.ru_flag { background: url("images/ru.png"); };
+
 ul.links { display: block; top: 10px; }
 ul.links li { float: left; margin-right: 10px; }
-ul.links a { font-size: 11px; color: black; font-weight: bold; text-decoration: none; text-transform: uppercase; }
+ul.links a { font-size: 11px; color: #000; font-weight: bold; text-decoration: none; text-transform: uppercase; font-family: tahoma, arial, verdana, sans-serif, Lucida Sans; }
 ul.links a:hover { text-decoration: underline; }
 
-
-.ui-selectmenu { margin-top: 15px; background: black; border: none; }
-.ui-selectmenu-menu li a, .ui-selectmenu-status { font-size: 11px; line-height: none; color: #eeb900; text-decoration: none;}
+.ui-selectmenu { margin-top: 15px; background: black; border: none; height: 23px; }
+.ui-selectmenu-menu li a, .ui-selectmenu-status { font-size: 11px; line-height: none; color: #eeb900; text-decoration: none; font-family: tahoma, arial, verdana, sans-serif, Lucida Sans;}
 .ui-selectmenu-menu li a:hover { text-decoration: none; }
 .ui-selectmenu-menu li a, .ui-selectmenu-status {
   font-size: 11px;
   line-height: none;
+  font-family: tahoma, arial, verdana, sans-serif, Lucida Sans;
 }
 
-.links_wrapper { float: right; min-width: 300px;  }
+.links_wrapper { float: right; min-width: 400px;  }
 .ui-selectmenu-item-selected { background: black; }
 .ui-selectmenu-item {  background: black; }
 

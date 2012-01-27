@@ -20,7 +20,7 @@ $(function(){
     });
 
     $(this).click(function(){
-      $("html, body").animate({scrollTop:0}, "slow");
+      $("html, body").animate({scrollTop:0}, 1000);
       return false;
     });
   }
@@ -53,8 +53,8 @@ $(document).ready(function(){
     var target_top = $("#"+trgt).offset().top;
 
     //goto that anchor by setting the body scroll top to anchor top
-    $('html, body').animate({scrollTop:target_top+40}, 400);
-    $('html, body').animate({scrollTop:target_top-40}, 500);
+    $('html, body').animate({scrollTop:target_top+40}, 1000);
+    $('html, body').animate({scrollTop:target_top-40}, 1200);
     //prevent the default action for the click event // event.preventDefault
     return false;
   });
