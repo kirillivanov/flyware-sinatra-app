@@ -1,15 +1,13 @@
-
-$bg: #780000; //url("images/bg_.png");
+$bg: #9d0000;
 $logo-font: #eeb900;
 $logoImgUrl: url("images/logo.png");
 $topImgUrl: url("images/top.png");
 
 /* default */
-
 html, body {
   background: $bg;
   color: #eee;
-  font-family: tahoma, arial, verdana, sans-serif, Lucida Sans;
+  font-family: Arial, Arial, Helvetica, sans-serif;
   font-size: 36px;
   overflow: hidden;
 }
@@ -17,7 +15,6 @@ html, body {
 select { margin-top: 10px; width: 60px; }
 
 /* html 5 */
-
 section, header, footer, aside, nav, article {
   display: block;
 }
@@ -84,12 +81,19 @@ h1 {
 #about {
   height: 1000px;
 }
+
 #works {
   height: 1000px;
 }
+
+#ceo {
+  height: 1000px;
+}
+
 #contacts {
   height: 1000px;
 }
+
 #about a { font-size: 11px; }
 
 #toTop {
@@ -123,16 +127,15 @@ a.ru_flag { background: url("images/ru.png"); };
 
 ul.links { display: block; top: 10px; }
 ul.links li { float: left; margin-right: 10px; }
-ul.links a { font-size: 11px; color: #000; font-weight: bold; text-decoration: none; text-transform: uppercase; font-family: tahoma, arial, verdana, sans-serif, Lucida Sans; }
+ul.links a { font-size: 11px; color: #000;  text-decoration: none; text-transform: uppercase; }
 ul.links a:hover { text-decoration: underline; }
 
 .ui-selectmenu { margin-top: 15px; background: black; border: none; height: 23px; }
-.ui-selectmenu-menu li a, .ui-selectmenu-status { font-size: 11px; line-height: none; color: #eeb900; text-decoration: none; font-family: tahoma, arial, verdana, sans-serif, Lucida Sans;}
+.ui-selectmenu-menu li a, .ui-selectmenu-status { font-size: 11px; line-height: none; color: #eeb900; text-decoration: none; }
 .ui-selectmenu-menu li a:hover { text-decoration: none; }
 .ui-selectmenu-menu li a, .ui-selectmenu-status {
   font-size: 11px;
   line-height: none;
-  font-family: tahoma, arial, verdana, sans-serif, Lucida Sans;
 }
 
 .links_wrapper { float: right; min-width: 400px;  }
@@ -146,3 +149,24 @@ ul.links a:hover { text-decoration: underline; }
 .ui-selectmenu-item-focus { background: #333; }
 .ui-selectmenu-menu li a:hover { background-image: none; border-color: #000; }
 
+#projects {
+  margin-left: 15%;
+  .image {
+    width: 294px;
+    height: 206px;
+    background: grey;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    background: url("images/test.png");
+    overflow: hidden;
+    border-radius: 5px;
+    .info {
+      width: 100%;
+      height: 100%;
+      background: #345;
+      opacity: .5;
+      border-radius: 5px;
+    };
+  }
+}

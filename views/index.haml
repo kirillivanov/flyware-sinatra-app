@@ -6,11 +6,11 @@
       %li
         %a /
       %li
-        %a.scroll(href="#works")Проекты
+        %a.scroll(href="#works")Портфолио
       %li
         %a /
       %li
-        %a.scroll(href="#works")CEO
+        %a.scroll(href="#ceo")CEO
       %li
         %a /
       %li
@@ -25,7 +25,12 @@
 %section#about.container_12
   %h1 О нас
 %section#works.container_12
-  %h1Проекты
+  #projects
+    - 6.times do
+      .image
+        .info
+%section#ceo.container_12
+  %h1СЕО
 %section#contacts.container_12
   %h1 Контакты
 
